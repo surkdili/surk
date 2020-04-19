@@ -20,8 +20,18 @@ Kurumsal dünyada aktif olarak kullanılan bir dil ortaya çıkartmak bu projeni
 
 
 # Yükleme
+
+<details><summary>Eğer daha önce yüklemediyseniz öncelikle sisteminize Python3 yükleyiniz.</summary>
+<p>
+
+
 Şurk dili bir Python paketi olarak dağıtılır ve dilin yüklemek için cihazınızda Python yüklü olmalıdır.
 Öncelikle şuradaki rehberi takip ederek sisteminize Python3 ü yükleyiniz. İşleminiz tamamlandığında pip 'i de yüklemiş olacaksınız. 
+
+<details><summary>Eğer bash: $: command not found hatası alırsanız ve ne olduğunu bilmiyorsanız buradaki açıklamayı okuyunuz.</summary><p>
+
+
+$ işareti sizin veri girdiğiniz uç birime girilecek komutun başına temsilen konur. Pek çok anlatımda denk gelirsiniz. Semboliktir. Bunu uçbirime yazmayın. Kopyalarken bu karakteri atlayın.
 Burada dikkat etmeniz gereken şey $ işaretini terminale kopyalamamanız gerektiği. Yani;
 Komşu şöyle ise; 
 
@@ -30,14 +40,40 @@ Komşu şöyle ise;
    
 
     sudo apt install python3.6
+</p>
+</details>
+
 
 [Türkçe Python kurulum rehberi](https://tutorial.djangogirls.org/tr/python_installation/)
 
-Bu işlem bittikten sonra şu komut ile surk derleyicisiniz yükleniyiniz;
+
+</p>
+</details>
+
+
+Python3 kullanarak şu komut ile surk derleyicisiniz yükleyiniz;
 
     pip3 install surk
 
 Sonuç olarak şu komutu uçbirimde(terminal, CMD) yürüttüğünüzde "başarılıyla kuruldu." çıktısını almanız gerekmekte.
+
+
+> surk --kontrol
+
+Şöyle bir çıktı alıyorsanız her şey hazırdır;
+
+```
+ _______           _______  _         
+(  ____ \|\     /|(  ____ )| \    /\  
+| (    \/| )   ( || (    )||  \  / /  
+| (_____ | |   | || (____)||  (_/ /   
+(_____  )| |   | ||     __)|   _ (    
+      ) || |   | || (\ (   |  ( \ \   
+/\____) || (___) || ) \ \__|  /  \ \  
+\_______)(_______)|/   \__/|_/    \/  
+
+Surk dili başarıyla kuruldu. Kullanmaya hazırsınız.
+```
 
 
 # Kodlama Rehberi
@@ -46,18 +82,24 @@ Sonuç olarak şu komutu uçbirimde(terminal, CMD) yürüttüğünüzde "başar�
 
 
 # Yol Haritası
+Yapılacaklar listesi herkese açık şekilde Trello 'da tutulmaktadır. Aşağıdan ulaşabilirsiniz.
 
- - [ ] Çekirdek kütüphanenin oluşturulması
-	 - [x] Terminal girdi-çıktı kabiliyetlerinin eklenmesi
-	 - [x] Tip dönüşümlerinin eklenmesi
-	 - [ ] Metin işlemleri kabiliyetlerinin eklenmesi
-	 - [ ] Dizi, liste vb. veri yapılarının eklenmesi
-	 - [ ] Dosya işlemlerinin eklenmesi
- - [ ] Referans sayfasının oluşturulması 
- - [ ] Örnek proje videolarının oluşturulması 
- - [ ] Arayüz kütüphanesinin eklenmesi 
- - [ ] VSCode için eklenti oluşturulması 
- - [ ] Web kütüphanelerinin eklenmesi
+
+[Yapılacaklar listesi için tıklayınız.](https://trello.com/b/EhRreez1/programlama-dili-yol-haritas%C4%B1)
+
+Kartların açıklamalaları;
+
+Dökümanlar: Kolay ulaşım için linkler.
+
+Bekleyenler(Backlog): Uzun dönemde yapılmak için sıraya konanlar. Buradaki maddeler "Yapılacaklar" ya da "Vazgeçildi" katlarına taşınır.
+
+Yapılacaklar: Kısa vadede yapılması kesinleşmiş maddeler.
+
+Yapılıyor: Şu anda yapılanlar.
+
+Tamamlandı: Tamamlanmı ve yayınlanmış olan işler.
+
+Vazgeçildi: Yapılması düşünülmüş olup sonradan vazgeçilen maddeler ve vazgeçilme sebepleri
 
 
 
