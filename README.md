@@ -1,3 +1,4 @@
+
 # Surk Dili
 Türkçe, ürün oluşturma odaklı, web&mobil&masaüstü desteği planlanan programlama dilidir.
 
@@ -40,7 +41,9 @@ Sonuç olarak şu komutu uçbirimde(terminal, CMD) yürüttüğünüzde "başar�
 
 
 # Kodlama Rehberi
-> Yakında.
+[Basit kullanımı gösteren kaynak dosyası.](https://github.com/surkdili/surk/blob/master/KAYNAK.md)
+
+
 
 # Yol Haritası
 
