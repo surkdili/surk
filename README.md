@@ -4,6 +4,25 @@ Türkçe, ürün oluşturma odaklı, web&mobil&masaüstü desteği planlanan pro
 
 > Shell + Turk -> Surk
 
+```python
+kullanıcı_ismi = oku("Kullanıcı isminizi giriniz:")
+yaş = oku("Yaşınızı giriniz:")
+yaş = tamSayı(yaş)
+yaz( kullanıcı_ismi, "isimli kullanıcı" , yaş , "yaşındadır.")
+
+eğer kullanıcı_ismi == "Ahmet" ise:
+	yaz("Kullanıcı ismi Ahmet'miş.")
+değilse:
+	yaz("Kullanıcı ismi Ahmet değilmiş.")
+
+
+yaş_sayacı = 0
+yaş_sayacı < yaş olduğu sürece:
+	yaz("kullanıcı" , yaş_sayacı , "yaşından büyüktür.")
+	yaş_sayacı += 10
+```
+
+
 # Amaç
 Yazılıma başlayan kişilerin yazılım öğrenmeden önce İngilizce öğrenme zorunluluklarını ortadan kaldırarak üzerimizdeki dil kaynaklı handikapları en aza indirmek amacıyla, kurumsal yazılım için kullanılabilecek, modern, güçlü, ürün odaklı bir yazılım dili oluşturmaktır.
 
@@ -104,6 +123,9 @@ Vazgeçildi: Yapılması düşünülmüş olup sonradan vazgeçilen maddeler ve 
 
 
 # Geri bildirim, Soru, Sorun ve Diğerleri
+
+Eğer bir öneriniz varsa lütfen önce kartların içerisinde arayınız. Eğer kartların içerisinde varsa kart linki ile birlikte o iş için "+1" oy verebilir ya da farklı önerilerde bulunabilirsiniz. 
+
 Eğer takıldığınız bir nokta varsa, bir noktada teknik bir sorun yaşıyorsanız topluluk forumuna sorabilirsiniz; [http://sayisalfelsefe.com/](http://sayisalfelsefe.com/)
 
 Dilin mimarisi, interpreter yapısı gibi daha derin konularda ise issue açabilirsiniz.
