@@ -15,7 +15,6 @@ eğer kullanıcı_ismi == "Ahmet" ise:
 değilse:
 	yaz("Kullanıcı ismi Ahmet değilmiş.")
 
-
 yaş_sayacı = 0
 yaş_sayacı < yaş olduğu sürece:
 	yaz("kullanıcı" , yaş_sayacı , "yaşından büyüktür.")
